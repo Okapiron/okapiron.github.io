@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>J-OSLER登録表 — サポート</title><meta name="description" content="J-OSLER登録表の使い方とお問い合わせ窓口。症例収集と疾患群の進捗をiPhone・iPadで管理。"><style>body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif;color:#182638;background:#f5f8fc;line-height:1.85;margin:0}main{max-width:720px;margin:auto;padding:56px 24px}h1{font-size:30px;line-height:1.4}h2{font-size:20px;margin-top:32px}a{color:#086ac7}section{background:white;border:1px solid #dce5ef;border-radius:18px;padding:24px;margin:24px 0}.eyebrow{font-size:13px;color:#5c6b7d}.button{display:inline-block;background:#086ac7;color:white;padding:10px 18px;border-radius:10px;text-decoration:none}footer{font-size:13px;color:#5c6b7d}</style></head><body><main>
-<p class="eyebrow">iPhone・iPad / 症例収集・進捗管理</p><h1>J-OSLER登録表</h1><p>症例を記録し、疾患群の充足状況を表で確認するアプリです。「候補・提出中・承認済」の3つの状態で整理できます。</p>
+<p class="eyebrow">iPhone・iPad / 症例収集・進捗管理</p><h1>J-OSLER登録表</h1><p>症例を記録し、疾患群の充足状況を表で確認するアプリです。症例（ショート）と病歴要約（ロング）を切り替えて管理できます。</p>
 <section><h2>お問い合わせ・不具合報告</h2><p>GitHub Issuesで受け付けています。アプリ名、端末名、iOSのバージョン、問題が起きた操作をお知らせください。投稿にはGitHubアカウントが必要です。</p><p><a class="button" href="https://github.com/Okapiron/okapiron.github.io/issues/new?title=%5BJ-OSLER%5D%20">GitHubで問い合わせる</a></p><p>投稿内容は公開されます。患者氏名、患者ID、症例の詳細、バックアップファイルなど、個人情報・医療情報は記載・添付しないでください。</p></section>
 <h2>症例を追加する</h2><p>表または症例一覧の「＋」から追加できます。タイトルだけでも保存できます。該当する疾患は複数選べます。</p>
-<h2>表の色と数字</h2><p>黄色は候補、青色は提出中、緑色は承認済です。数字は症例数、0は記録なし、斜線は対象の疾患群がないマスです。王冠は領域ごとの必要症例数・疾患群数・内訳を承認済症例で満たすと表示します。研修全体の修了を示すものではありません。</p>
-<h2>集計と絞り込み</h2><p>固定していない候補は、選んだすべての疾患に集計します。登録先を固定した症例、提出中・承認済の症例は、登録先の疾患だけに集計します。診療科名をタップすると項目一覧を開き、承認済の症例がない項目や、候補も含め症例がない項目を絞り込めます。</p>
-<h2>機種変更・バックアップ</h2><p>設定の「バックアップを書き出す」でファイルを保存し、移行先で「バックアップから復元」を選びます。復元は現在のデータを置き換えます。端末間の自動同期には対応していません。</p>
+<h2>表の色と数字</h2><p>ショートは黄色が検討中、青色が提出中、緑色が承認済、赤色が差戻しです。ロングは黄色が検討中、青色が作成済、緑色が承認済、赤色が差戻しです。数字は症例数、斜線は対象のないマスを示します。</p>
+<h2>疾患の選択と絞り込み</h2><p>疾患を複数候補として選び、登録先を1つ選択できます。ショートの検討中で登録先が未選択の場合は候補の疾患に、登録先を選んだ場合はその疾患に集計します。診療科名をタップすると疾患項目を参照できます。症例一覧では診療科・登録状況・キーワードで絞り込めます。</p>
+<h2>病歴要約を管理する</h2><p>症例の詳細で「病歴要約症例にする」を選ぶと、ロングの表に表示されます。ロング表示中の＋から追加した症例も、病歴要約症例として管理できます。領域別・外科紹介・剖検の枠から症例を選び、本登録と補欠を整理できます。症例の編集画面では、病歴要約メモを任意で記録できます。</p>
+<h2>保存と編集中の復元</h2><p>編集は「保存」で確定します。入力途中の内容は中断時の復元用に自動退避します。未保存の編集がある場合は、登録症例画面の「編集を復元」から再開できます。設定の「データの移行・復元」では、直前の保存データを読み込めます。</p>
+<h2>機種変更・バックアップ</h2><p>設定の「データの移行・復元」から「データを書き出す」でファイルを保存し、移行先で「データを取り込む」を選びます。取り込み内容を確認し、追加・更新または全置換を選択できます。端末間の自動同期には対応していません。</p>
+<h2>アプリをロックする</h2><p>設定のプライバシーからロックを有効にできます。Face ID・Touch ID・端末のパスコードで解除できます。</p>
 <h2>このアプリについて</h2><p>開発・運営：Hiroki Okazaki。本アプリは日本内科学会の非公式アプリです。J-OSLERへの送信や連携は行いません。診断・治療の判断を行う機能はありません。制度や登録要件の最終確認には日本内科学会の公式資料をご参照ください。</p>
 <p><a href="privacy.html">プライバシーポリシー</a></p><footer>© 2026 Hiroki Okazaki</footer></main></body></html>
